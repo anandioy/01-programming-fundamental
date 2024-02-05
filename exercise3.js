@@ -14,6 +14,16 @@ for (let a = 1; a <= lim; a++){
 
 //2. write a code to check whether a string is a palindrome or not 
 
+let str = "madam";
+let strLength = str.length;
+res = `${str} is a palindrome`;
+
+for (let m = 0; m < strLength / 2; m++) {
+    if (str[m] !== str[strLength -1 -m]){
+        res = `${str} is not a palindrome`;
+    }
+}
+console.log(res)
 
 
 //3. code to convert centimeter to kilometer
