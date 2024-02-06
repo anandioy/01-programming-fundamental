@@ -16,11 +16,17 @@ for (let a = 1; a <= lim; a++){
 
 let str = "madam";
 let strLength = str.length;
+console.log(strLength);
+
 res = `${str} is a palindrome`;
 
 for (let m = 0; m < strLength / 2; m++) {
-    if (str[m] !== str[strLength -1 -m]){
+    console.log(m);
+    console.log(str[m]);
+    console.log(str[strLength -1 -m]);
+    if (str[m] !== str[strLength -1 -m]) {
         res = `${str} is not a palindrome`;
+        break;
     }
 }
 console.log(res)
@@ -28,7 +34,7 @@ console.log(res)
 
 //3. code to convert centimeter to kilometer
 let centimeter = 100000;
-let kilometer = centimeter / 100000;
+const kilometer = centimeter / 100000;
 console.log(`${centimeter} centimeters is equal to ${kilometer} kilometers`);
 
 //4. write a code to format number as currency (IDR)

@@ -1,7 +1,7 @@
 //EXERCISE
 //pseudocode in looping statement
 
-// write a code to convert celcius to fahrenheit
+// 1. write a code to convert celcius to fahrenheit
 // 60 celcius -> 140 Fahrenheit
 // (1 + 9/5) + 32 = 33.8
 // (2 + 9/5) + 32 = 35.6
@@ -11,7 +11,7 @@ let fahrenheit = (celcius * 9/5) + 32;
 
 console.log(fahrenheit);
 
-// write a code to check whether the number is odd or even
+// 2. write a code to check whether the number is odd or even
 // 25 -> odd number, 2 -> even number
 
 const numberCheck = 31
@@ -24,7 +24,7 @@ if (numberCheck % 2 === 0) {
 }
 console.log(evenOr)
 
-//write a code to check whether the number is prime number or not
+//3. write a code to check whether the number is prime number or not
 // 7 -> 7 is a prime number
 // 6 -> 6 is not a prime number
 
@@ -44,22 +44,22 @@ for (let x = 2; x < numb; x++){
 }
 console.log(answer)
 
-//write a code to find the sum of the number 1 to N
+//4. write a code to find the sum of the number 1 to N
 // 5 -> 1 + 2 + 3 + 4 + 5 = 15
 // 3 -> 1 + 2 + 3 = 6
 // n(n+1)/2
 
 let sum = 0;
-
+//numb = 5
 for (y = 0; y <= numb; y++){
     if (sum += y);
 }
 console.log(sum)
 
-//write a code to find factorial of a number
+//5. write a code to find factorial of a number
 //example: 4! -> 4 x 3 x 2 x 1 = 24
 //example: 6! -> 6 x 5 x 4 x 3 x 2 x 1 = 720
-// 
+
 
 if (numb === 0 || numb === 1){
     answer1 = 1
@@ -71,7 +71,7 @@ for (let z = numb-1; z>= 1; z--){
 console.log(answer1);
 
 
-//write a code to print the first N fibonacci numbers
+//6.write a code to print the first N fibonacci numbers
 //example : 15 -> 610
 
 //fibonacci sequence nambahin angka dengan angka sebelumnya dan seterusnya
