@@ -99,4 +99,4 @@ for (let b = 1; b <= seq; b++) {
     next1 = x1;
     x1 = next1 + b ;
     x2 = next1;
-}
+} 
